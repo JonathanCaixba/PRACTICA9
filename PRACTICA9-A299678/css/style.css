@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    position: relative;
+    background-color: rgb(10, 3, 37);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: rgb(250, 248, 248);
+}
+header
+{
+    background: url('../img/BannerIAcx.png');
+    background-repeat: no-repeat;
+    background-size: 1350px 240px;
+}
+header h1
+{
+    font-family: 'Comic Sans MS';
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#Titulo
+{
+    display: inline-block;
+}
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 140px;
+}
+nav
+{
+    display: inline-block;
+    width: 1348px;
+    height: 40px;
+    text-align: left;
+    background-color: rgb(4, 64, 99);
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: chartreuse;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: brown;
+    border-bottom: 3px solid #565656;
+}
+img{
+    height: 250px;
+}
+article {
+    padding: 10px;
+}
+section{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 75%;
+}
+aside{
+    padding: 5px;
+    font-style: italic;
+    float: right;
+    width: 20%;
+    border: 2px solid;
+}
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    box-sizing: border-box;
+    border-top: 2px solid #000;
+    background-color: rgb(3, 145, 133);
+    color: rgb(119, 0, 24);
+    text-align: center;
+    padding-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(192, 190, 190);
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
